@@ -31,16 +31,25 @@
         font-family: monospace;
       }
 
-      .topRightApi {
+      .bottomRight {
         position: absolute;
-        top: 80px;
-        right: 1px;
+        bottom: 10px;
+        right: 10px;
         color: white;
         padding: 8px 12px;
         border-radius: 4px;
         font-weight: bold;
         font-size: 14px;
         font-family: monospace;
+      }
+
+      .bottomRight a {
+        color: white;
+        text-decoration: none;
+      }
+
+      .bottomRight a:hover {
+        text-decoration: underline;
       }
 
       h1 {
@@ -61,8 +70,6 @@
     </style>
   </head>
   <body>
-
-    <div class="topRightApi"><a href="http://localhost:8141/api/v1/date">Today's date API</a></div>
     <span class="topRight">
       <div id="date"></div> 
       <div id="time"></div>
@@ -106,5 +113,8 @@
       fetchDateTime();
       setInterval(fetchDateTime, 1000);
     </script>
+    <div class="bottomRight">
+      <a href="https://github.com/darko-dimitrievski/nodejs-onboarding" target="_blank">GitHub Repo</a>
+    </div>
   </body>
 </html>
