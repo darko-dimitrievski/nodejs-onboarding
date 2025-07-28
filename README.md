@@ -18,16 +18,34 @@ A RESTful API built with Node.js and Express for onboarding purposes. It include
 └── README.md         # Project documentation  
 ```
 
-## ⚙️ Environment Variables
+## 🚀 Getting Started
 
-Create a `.env` file in the root directory and include the following:
+Follow these steps to run the project locally:
+
+### 1. Clone the Repository
 
 ```
-| Variable        | Required | Description                              | Example                                 |
-|-----------------|----------|------------------------------------------|-----------------------------------------|
-| `PORT`          | ✅       | Server port                              | `8141`                                  |
-| `JWT_SECRET`    | ✅       | Secret key for signing JWT tokens        | `jwtSecret`                             |
+git clone https://github.com/darko-dimitrievski/nodejs-onboarding.git
+cd your-repo-name
 ```
+### 2. Install Dependencies
+
+```
+npm install
+```
+
+### 3. Set Up Environment Variables
+
+Copy the .env-example file and rename it to .env, then update the values as needed:
+```
+cp .env-example .env
+```
+
+### 4. Start the Application
+```
+npm run start
+```
+
 ## 🔌 API Endpoints Overview
 ### 🔐 JWT Auth
 ```
