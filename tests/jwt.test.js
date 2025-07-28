@@ -32,7 +32,7 @@ describe('JWT Auth', () => {
       token = res.body.token;
     });
 
-    it('should return 401 if no token provided', async () => {
+    it('should return 403 if no token provided', async () => {
       const res = await request(app)
         .get('/api/v1/dashboard');
 

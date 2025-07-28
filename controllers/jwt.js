@@ -38,7 +38,7 @@ const dashboard = async (req, res) => {
     });
   } catch (err) {
     console.error('Dashboard error:', err.message);
-    throw new CustomAPIError('Not authorized to access this route', 401);
+    throw new CustomAPIError('Not authorized to access this route', 403);
   }
 };
 
