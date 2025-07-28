@@ -11,7 +11,6 @@ A RESTful API built with Node.js and Express for onboarding purposes. It include
 ├── /public           # Static assets like HTML pages, client-side scripts, and styles  
 ├── /routes           # Express route definitions  
 ├── /tests            # Integration tests  
-├── /config           # Configuration files and environment setup  
 ├── app.js            # Express app initialization  
 ├── server.js         # Entry point that loads environment variables and starts the server to host the Express app  
 ├── .env              # Environment variables (not committed)  
