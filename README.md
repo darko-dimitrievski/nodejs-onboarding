@@ -18,7 +18,7 @@ A RESTful API built with Node.js and Express for onboarding purposes. It include
 └── README.md         # Project documentation  
 ```
 
-## 🚀 Getting Started
+## 🧪 Getting Started
 
 Follow these steps to run the project locally:
 
