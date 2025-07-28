@@ -5,19 +5,18 @@ A RESTful API built with Node.js and Express for onboarding purposes. It include
 ## 📁 Project Structure
 
 ```
-├── /src
-│   ├── /controllers      # Request handlers for different routes
-│   ├── /errors           # Custom error handler
-│   ├── /routes           # Express route definitions
-│   ├── /middleware       # Custom middleware (authentication)
-│   ├── /tests            # Integration tests
-│   ├── app.js            # Express app initialization
-│   └── server.js         # Entry point that loads environment variables and starts the server to host the Express app
-├── /config               # Configuration files and environment setup
-├── /tests                # Test cases
-├── .env                  # Environment variables (not committed)
-├── package.json          # Dependencies and scripts
-└── README.md             # Project documentation
+├── /controllers      # Request handlers for different routes  
+├── /errors           # Custom error handler  
+├── /middleware       # Custom middleware (authentication)  
+├── /public           # Static assets like HTML pages, client-side scripts, and styles  
+├── /routes           # Express route definitions  
+├── /tests            # Integration tests  
+├── /config           # Configuration files and environment setup  
+├── app.js            # Express app initialization  
+├── server.js         # Entry point that loads environment variables and starts the server to host the Express app  
+├── .env              # Environment variables (not committed)  
+├── package.json      # Dependencies and scripts  
+└── README.md         # Project documentation  
 ```
 
 ## ⚙️ Environment Variables
